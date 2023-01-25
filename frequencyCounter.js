@@ -1,3 +1,4 @@
+// O(n)
 const frequencyCounter = (arr1, arr2) => {
   if (arr1.length != arr2.length) return false;
 
@@ -28,4 +29,4 @@ const newHistogram = (arr1) => {
   return histogram;
 };
 
-frequencyCounter("hello".split(), "hello".split().reverse()); // true
+frequencyCounter("hello", "olleh"); // true
